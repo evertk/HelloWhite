@@ -23,6 +23,7 @@ namespace HelloWhite
 		public MainWindow()
 		{
 			InitializeComponent();
+			DataContext = new MainVM();
 		}
 	}
 }
