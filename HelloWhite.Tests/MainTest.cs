@@ -1,9 +1,5 @@
-﻿using NUnit.Framework;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System;
+using NUnit.Framework;
 using TestStack.White;
 using TestStack.White.UIItems;
 using TestStack.White.UIItems.Finders;
@@ -18,7 +14,7 @@ namespace HelloWhite.Tests
 		{
 			string location = AppDomain.CurrentDomain.BaseDirectory;
 
-			var app = Application.Launch(location + "..\\..\\..\\White-Test\\bin\\Debug\\White-Test.exe");
+			var app = Application.Launch(location + "..\\..\\..\\HelloWhite\\bin\\Debug\\HelloWhite.exe");
 			var win = app.GetWindow("MainWindow");
 
 
