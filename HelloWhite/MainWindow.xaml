@@ -19,7 +19,8 @@
 		</Grid.RowDefinitions>
 		<Button Grid.Row="0"
 				Grid.Column="0"
-				Content="Start"
+				Content="Bla"
+				Padding="35"
 				Command="{Binding StartCommand}"
 				AutomationProperties.AutomationId="Knopje" />
 
